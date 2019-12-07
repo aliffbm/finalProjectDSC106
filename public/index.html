@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div id="intro" style="background: black; height: 100vh; transition: 2s all; position: relative;">
+        <div id="intro-text" style="color: white; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 40px;">
+                What is it that we all search for in happiness?
+        </div>
+    </div>
+    <div id="theRest" style="display: none;">
+        <br>
+        <h1 style="text-align: center;">Does Income Levels and Perceptual Happiness relate to Suicides?</h1>
+        <div class="container">
+            <p>It appears that higher GDP doesn't not imply higher happiness. Explore the chart below. In all years,
+                there
+                are countries who rank higher in Happiness,
+                even though their GDP is lower than those who are less happy! Below, the Happiness Score are collected
+                for
+                years 2015 - 2019 </p>
+        </div>
+        <br>
+
+        <div id="buttons" class="text-center">
+            <button id="15" class="btn btn-primary">2015</button>
+            <button id="16" class="btn btn-primary">2016</button>
+            <button id="17" class="btn btn-primary">2017</button>
+            <button id="18" class="btn btn-primary">2018</button>
+            <button id="19" class="btn btn-primary">2019</button>
+        </div>
+        <br>
+        <div class="container">
+            <div id="highContainer" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+            <div class="container-fluid">
+                <div class="row" style="height: 400px;">
+                    <div id="top-suicides" class="col-md-6"></div>
+                    <div id="suicide-container" class="col-md-6"></div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/css/bootstrap/js/bootstrap.min.js">
+    </script>
+    <script src="assets/main.js"></script>
+
+
+</body>
+
+</html>

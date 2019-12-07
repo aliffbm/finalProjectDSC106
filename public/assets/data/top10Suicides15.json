@@ -1,0 +1,62 @@
+[
+    {
+        "country": "United States",
+        "sex": "male",
+        "generation": "Generation X",
+        "suicides_no": 11634
+    },
+    {
+        "country": "United States",
+        "sex": "male",
+        "generation": "Millenials",
+        "suicides_no": 9862
+    },
+    {
+        "country": "United States",
+        "sex": "male",
+        "generation": "Boomers",
+        "suicides_no": 9068
+    },
+    {
+        "country": "Russian Federation",
+        "sex": "male",
+        "generation": "Generation X",
+        "suicides_no": 7898
+    },
+    {
+        "country": "Russian Federation",
+        "sex": "male",
+        "generation": "Millenials",
+        "suicides_no": 6922
+    },
+    {
+        "country": "Japan",
+        "sex": "male",
+        "generation": "Generation X",
+        "suicides_no": 5507
+    },
+    {
+        "country": "Japan",
+        "sex": "male",
+        "generation": "Boomers",
+        "suicides_no": 5241
+    },
+    {
+        "country": "Russian Federation",
+        "sex": "male",
+        "generation": "Boomers",
+        "suicides_no": 4443
+    },
+    {
+        "country": "United States",
+        "sex": "female",
+        "generation": "Generation X",
+        "suicides_no": 4053
+    },
+    {
+        "country": "Republic of Korea",
+        "sex": "male",
+        "generation": "Generation X",
+        "suicides_no": 3678
+    }
+]
