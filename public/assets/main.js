@@ -56,7 +56,7 @@ $(document).ready(function () {
                 }
                 let table = `<h2>Top 10 Suicides by Country - 20${id}</h2><table class="table"><thead>${tableHeaders}</thead><tbody>${tableBody}</tbody></table>`
                 $("#top-suicides").html(table)
-                $("#top-suicides").css("font-size", "20px")
+                $("#top-suicides").css("font-size", "14px")
             } else {
                 $("#top-suicides").html("No Data Available").css("font-size", "25px").css("text-align", "center")
             }
@@ -141,14 +141,14 @@ $(document).ready(function () {
         if (!data[key]) {
             let el = document.getElementById("suicide-container")
             el.innerHTML = "No Data Available";
-            el.style.color = "#fff";
+            
             if(happyScore < .50) {
-                
+                el.style.color = "#fff";
                 el.style.background = "url('assets/images/depressed.png')";
-                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is  ${happyScore}, which is ~ less than half of the countries`
+                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is  ${happyScore}, which is less than ~ half of the countries`
                 } else {
-                el.style.background = "url('assets/images/happy.jpeg')";
-                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is ${happyScore}, which is ~ greater than half of the countries`
+                el.style.background = "url('assets/images/happy1.jpg')";
+                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is ${happyScore}, which is ~ greater than ~ half of the countries`
             }
             
             el.style.backgroundSize = "contain";
@@ -229,20 +229,6 @@ $(document).ready(function () {
             }
 
             var series = seriess;
-            // [
-            //     {
-            //         name: 'Year 1800',
-            //         data: [107, 31, 635, 203, 2]
-            //     },
-            //     {
-            //         name: 'Year 1900',
-            //         data: [133, 156, 947, 408, 6]
-            //     },
-            //     {
-            //         name: 'Year 2008',
-            //         data: [973, 914, 4054, 732, 34]
-            //     }
-            // ];
 
             var json = {};
             json.chart = chart;
@@ -263,8 +249,5 @@ $(document).ready(function () {
 
         }
     }
-
-    // $('#suicide-container').highcharts(json);
-
 
 });
