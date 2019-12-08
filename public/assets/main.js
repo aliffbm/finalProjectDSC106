@@ -145,10 +145,10 @@ $(document).ready(function () {
             if(happyScore < .50) {
                 
                 el.style.background = "url('assets/images/depressed.png')";
-                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is  ${happyScore} < half of the countries`
+                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is  ${happyScore}, which is ~ less than half of the countries`
                 } else {
                 el.style.background = "url('assets/images/happy.jpeg')";
-                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is ${happyScore} > half of the countries`
+                el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is ${happyScore}, which is ~ greater than half of the countries`
             }
             
             el.style.backgroundSize = "contain";
