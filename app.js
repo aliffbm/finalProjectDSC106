@@ -16,7 +16,6 @@ app.use(express.static("public"));
 app.get("/data/:id", function(req, res) {
     let data = {}
     let id = req.params.id;
-    console.log("ID IS: ", id)
     if(id == 15){
         data["happinessData"] = data15;
         data["suicideData"] = suicideData15;
