@@ -54,7 +54,7 @@ $(document).ready(function () {
                     tr += '</tr>';
                     tableBody += tr;
                 }
-                let table = `<table class="table"><thead>${tableHeaders}</thead><tbody>${tableBody}</tbody></table>`
+                let table = `<h2>Top 10 Suicides by Country - 20${id}</h2><table class="table"><thead>${tableHeaders}</thead><tbody>${tableBody}</tbody></table>`
                 $("#top-suicides").html(table)
                 $("#top-suicides").css("font-size", "20px")
             } else {
