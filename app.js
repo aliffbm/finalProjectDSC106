@@ -11,7 +11,9 @@ let suicideData15 = require("./public/assets/data/suicideData15.json");
 let suicideData16 = require("./public/assets/data/suicideData15.json");
 let top10_15 = require("./public/assets/data/top10Suicides15.json");
 let top10_16 = require("./public/assets/data/top10Suicides16.json");
-app.use(express.static("public"));
+
+app.use("/",express.static("public"));
+
 
 app.get("/data/:id", function(req, res) {
     let data = {}
