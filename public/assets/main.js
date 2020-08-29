@@ -147,6 +147,7 @@ $(document).ready(function () {
                 el.style.background = "url('assets/images/depressed.png')";
                 el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is  ${happyScore}, which is less than ~ half of the countries`
                 } else {
+                el.style.color = "#000";
                 el.style.background = "url('assets/images/happy1.jpg')";
                 el.innerText = `No Suicide Data Available ... But Happiness score in ${key} is ${happyScore}, which is ~ greater than ~ half of the countries`
             }
